@@ -123,3 +123,45 @@ Predicting a house price based on:
 - number of rooms
 
 Regression finds patterns in the data to make these predictions.
+
+---
+
+# Types of data
+
+Data can be divided into two main types: Qualitative (categorical) data and Quantitative (numerical) data.
+
+### 1. Categorical
+
+represents attributes, labels, or characteristics
+
+### **a. Nominal Data**
+
+Categories with no natural order.
+
+_Examples:_
+Gender (Male/Female), Blood group (A, B, AB, O), Marital status (Single, Married).
+
+### **b. Ordinal Data**
+
+Categories with a meaningful order, but differences between values are not measurable.
+
+_Examples:_
+Education level (High School, Bachelor, Master, PhD), Satisfaction rating (Poor, Average, Good, Excellent)
+
+### 2. Numerical
+
+data represents numbers and can be measured
+
+### **a. Discrete Data**
+
+CCountable values, usually integers
+
+_Examples:_
+No. of childer, no. of phones
+
+### **b. Continuous Data**
+
+Can take any value within a range and is measurable
+
+_Examples:_
+height, weight, phone price
