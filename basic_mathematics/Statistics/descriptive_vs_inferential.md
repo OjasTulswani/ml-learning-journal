@@ -1,7 +1,6 @@
 # Lecture 1: Understanding Statistics for Machine Learning
 
-Statistics is a core foundation of Machine Learning (ML). It helps us **understand data**, **build better models**, and **evaluate their performance**. Before diving deep into ML algorithms, it's important to understand the basics of statistics.
-
+Statistics helps us **understand data**, **build better models**, and **evaluate their performance**.
 ---
 
 ## What Is Statistics?
@@ -20,8 +19,6 @@ Statistics is broadly divided into two types:
 
 1. **Descriptive Statistics**
 2. **Inferential Statistics**
-
-Let’s look at each in a beginner-friendly way.
 
 ---
 
@@ -78,12 +75,6 @@ Visualization helps spot **patterns**, **trends**, or **unusual points**.
 
 ---
 
-### Why Descriptive Statistics Matter
-
-They help you quickly understand the **shape**, **center**, and **spread** of your data before building ML models.
-
----
-
 # 2. Inferential Statistics
 
 While descriptive statistics summarize the data we have, **inferential statistics help us make conclusions about a bigger population** based on a smaller sample.
@@ -132,14 +123,3 @@ Predicting a house price based on:
 - number of rooms
 
 Regression finds patterns in the data to make these predictions.
-
----
-
-### Why Inferential Statistics Matter
-
-They let us:
-
-- Make predictions,
-- Test ideas,
-- Quantify uncertainty,
-- Draw conclusions about populations from samples.
