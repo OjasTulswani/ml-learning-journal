@@ -225,3 +225,63 @@ Models:
 | Speed of updates       | Slow                 | Fast                   |
 | Concept drift handling | Poor                 | Excellent              |
 | Production risk        | Low                  | Higher                 |
+
+---
+
+## 1. Instance-Based Learning
+
+Instance-based learning is a type of learning where the model **stores the training data** and makes predictions **only when a new input is received**.
+
+- There is **no explicit model training or generalization phase**.
+- Predictions are made by comparing the new input with stored training instances.
+- A **distance metric** (commonly **Euclidean distance**) is used to find the nearest data points.
+- The output is inferred based on the most similar instances in the dataset.
+
+### Key Characteristics
+- Stores the entire training dataset
+- No mathematical model is built
+- Learning happens at **query time**
+- Example algorithms: **k-Nearest Neighbors (KNN)**
+
+---
+
+## 2. Model-Based Learning
+
+Model-based learning focuses on **understanding the underlying pattern or relationship** between input features and output labels.
+
+- The algorithm learns a **mathematical relationship** from the training data.
+- It creates a **decision boundary** or **decision function**.
+- Once the model is trained, the **training data is no longer required**.
+- New inputs are passed through the learned function to get predictions.
+
+### Key Characteristics
+- Learns parameters from training data
+- Builds a generalized model
+- Learning happens during the **training phase**
+- Example algorithms: **Linear Regression, Logistic Regression, SVM**
+
+---
+
+## Key Differences Between Instance-Based and Model-Based Learning
+
+| Aspect | Instance-Based Learning | Model-Based Learning |
+|------|------------------------|---------------------|
+| Data Cleaning | Same preprocessing steps as model-based | Same preprocessing steps as instance-based |
+| Training Phase | No explicit training | Model is trained on data |
+| Pattern Discovery | Happens at query time | Happens during training |
+| Model Storage | No model stored | Trained model is stored |
+| Generalization | No generalization before prediction | Generalizes during training |
+| Prediction on Unseen Data | Uses training data directly | Uses learned model |
+| Data Requirement After Training | Must keep entire dataset | Training data can be discarded |
+| Storage Requirement | High (stores full dataset) | Low (stores only model parameters) |
+| Speed | Slower predictions | Faster predictions |
+
+---
+
+## Conclude 
+
+- **Instance-Based Learning** memorizes data and defers computation until prediction time.
+- **Model-Based Learning** builds a generalized model that can efficiently predict unseen data.
+- Choice depends on dataset size, memory constraints, and prediction speed requirements.
+
+---
